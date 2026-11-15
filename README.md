@@ -1,3 +1,5 @@
+## 这个已经是过时的产物了，如果可以还是去用DailyRoutines和OmniTools的相应功能吧，我写的就是一坨打分
+
 # ff14-keybound-brawler — 「魔光键影」自动打字插件
 
 FF14 金碟游乐场打字玩法 **「魔光键影」（Keybound Brawler）** 的 Dalamud 插件。
