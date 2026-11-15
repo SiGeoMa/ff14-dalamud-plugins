@@ -19,14 +19,14 @@
             "Utility"
         ],
         "DalamudApiLevel": 15,
-        "IsHide": false,
+        "IsHide": true,
         "IsTestingExclusive": false,
         "DownloadLink": "https://cdn.jsdelivr.net/gh/SiGeoMa/ff14-dalamud-plugins@main/dist/KeyboundBrawler.zip",
         "DownloadLinkInstall": "https://cdn.jsdelivr.net/gh/SiGeoMa/ff14-dalamud-plugins@main/dist/KeyboundBrawler.zip",
         "DownloadLinkUpdate": "https://cdn.jsdelivr.net/gh/SiGeoMa/ff14-dalamud-plugins@main/dist/KeyboundBrawler.zip",
         "DownloadLinkTesting": null,
         "IconUrl": "https://cdn.jsdelivr.net/gh/SiGeoMa/ff14-dalamud-plugins@main/icon.png",
-        "LastUpdate": 1793183535,
+        "LastUpdate": 1794740594,
         "DownloadCount": 0,
         "LoadPriority": 0
     },
