@@ -1,4 +1,4 @@
-# 架构与后续开发路线
+﻿# 架构与后续开发路线
 
 ## 1. 分层
 
@@ -77,5 +77,6 @@ dalamud.log ──文件增量读取──▶ DalamudLogTailer ──▶ logs\da
 # 核心逻辑
 dotnet run --project tools/selfcheck -- dalamud-plugin/KeyboundBrawler/data/words.json
 # 插件编译
-dotnet build ff14-keybound-brawler/dalamud-plugin/KeyboundBrawler/KeyboundBrawler.csproj -c Release
+dotnet build ff14-dalamud-plugins/dalamud-plugin/KeyboundBrawler/KeyboundBrawler.csproj -c Release
 ```
+

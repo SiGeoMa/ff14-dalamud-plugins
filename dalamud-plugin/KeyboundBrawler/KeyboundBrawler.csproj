@@ -11,7 +11,7 @@
     <Name>KeyboundBrawler</Name>
     <Punchline>FF14 魔光键影打字训练 / 日志采集占位</Punchline>
     <Description>本地打字练习（内置魔光键影词库）+ 游戏聊天 / Dalamud 日志采集通道，供后续接入真实玩法数据。</Description>
-    <RepoUrl>https://github.com/keybound-brawler/ff14-keybound-brawler</RepoUrl>
+    <RepoUrl>https://github.com/keybound-brawler/ff14-dalamud-plugins</RepoUrl>
     <Tags>typing;keybound;brawler;gold saucer;training</Tags>
     <CategoryTags>Utility</CategoryTags>
     <DalamudApiLevel>15</DalamudApiLevel>
@@ -55,3 +55,4 @@
   </ItemGroup>
 
 </Project>
+

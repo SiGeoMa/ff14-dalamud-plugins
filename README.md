@@ -1,6 +1,21 @@
 ## 这个已经是过时的产物了，如果可以还是去用DailyRoutines和OmniTools的相应功能吧，我写的就是一坨打分
 
-# ff14-keybound-brawler — 「魔光键影」自动打字插件
+# FF14 Dalamud 插件仓库
+
+SiGeoMa 的 Dalamud 第三方插件仓库。
+
+- **KeyboundBrawler**：金碟「魔光键影」自动打字插件
+- **WattNoise**：角色死亡/团灭时播放《关羽之歌》的插件（`/guanyu` 设置）
+
+## 第三方仓库地址
+
+```
+https://cdn.jsdelivr.net/gh/SiGeoMa/ff14-dalamud-plugins@main/pluginmaster.json
+```
+
+---
+
+## KeyboundBrawler — 「魔光键影」自动打字
 
 FF14 金碟游乐场打字玩法 **「魔光键影」（Keybound Brawler）** 的 Dalamud 插件。
 
@@ -27,14 +42,14 @@ FF14 金碟游乐场打字玩法 **「魔光键影」（Keybound Brawler）** �
 
 1. `/xlplugins` → 设置 → 第三方插件仓库 → 添加：
    ```
-   https://cdn.jsdelivr.net/gh/SiGeoMa/ff14-keybound-brawler@main/pluginmaster.json
+   https://cdn.jsdelivr.net/gh/SiGeoMa/ff14-dalamud-plugins@main/pluginmaster.json
    ```
 2. 搜索 `KeyboundBrawler` → 安装 → 重启游戏
 
 ### 方式 B：本地构建
 
 ```powershell
-dotnet build ff14-keybound-brawler/dalamud-plugin/KeyboundBrawler/KeyboundBrawler.csproj -c Release
+dotnet build ff14-dalamud-plugins/dalamud-plugin/KeyboundBrawler/KeyboundBrawler.csproj -c Release
 ```
 
 把 `bin/Release/` 里的 dll、json、icon.png、data/ 拷到 Dalamud 开发插件目录。
@@ -64,7 +79,7 @@ dotnet build ff14-keybound-brawler/dalamud-plugin/KeyboundBrawler/KeyboundBrawle
 ## 目录结构
 
 ```
-ff14-keybound-brawler/
+ff14-dalamud-plugins/
 ├─ dalamud-plugin/KeyboundBrawler/
 │  ├─ Plugin.cs              入口 / 自动逻辑 / 防 AFK / 安全防护
 │  ├─ PluginConfiguration.cs 配置
@@ -94,3 +109,4 @@ ff14-keybound-brawler/
 | 0.3.6 | 逐字写入 + 方向键防 AFK |
 | 0.3.5 | 实体距离选词 + 插件图标 |
 | 0.3.0 | 直接写入输入框 + 游戏回调提交 |
+

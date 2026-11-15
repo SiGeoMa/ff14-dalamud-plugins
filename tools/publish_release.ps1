@@ -1,4 +1,4 @@
-# 发布新版到 GitHub Release 并更新 pluginmaster.json
+﻿# 发布新版到 GitHub Release 并更新 pluginmaster.json
 #
 # 用法（在仓库根目录）：
 #   powershell -NoProfile -ExecutionPolicy Bypass -File tools/publish_release.ps1 -Version 0.3.1
@@ -14,7 +14,7 @@
 
 param(
     [string]$Version = "",
-    [string]$Repo = "SiGeoMa/ff14-keybound-brawler",
+    [string]$Repo = "SiGeoMa/ff14-dalamud-plugins",
     [string]$Proxy = "http://127.0.0.1:7897",
     [switch]$NoPush
 )
@@ -147,3 +147,4 @@ if (-not $NoPush) {
 
 Write-Host ""
 Write-Host "完成。Dalamud 第三方仓库地址：https://raw.githubusercontent.com/$Repo/main/pluginmaster.json" -ForegroundColor Green
+
