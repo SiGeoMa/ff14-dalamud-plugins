@@ -36,7 +36,7 @@
         "Punchline": "三军听令，自刎归天！！！",
         "Description": "死了就直接播放《关羽之歌》。支持自定义音频文件、音量、播放延迟、冷却时间、循环播放；复活时自动停止，也可在设置窗口里手动测试。",
         "InternalName": "GuanyuRequiem",
-        "AssemblyVersion": "1.0.0.0",
+        "AssemblyVersion": "1.1.0.0",
         "RepoUrl": "https://github.com/SiGeoMa/ff14-keybound-brawler",
         "ApplicableVersion": "any",
         "Tags": [
@@ -57,7 +57,7 @@
         "DownloadLinkUpdate": "https://cdn.jsdelivr.net/gh/SiGeoMa/ff14-keybound-brawler@main/dist/WattNoise.zip",
         "DownloadLinkTesting": null,
         "IconUrl": "https://cdn.jsdelivr.net/gh/SiGeoMa/ff14-keybound-brawler@main/images/WattNoise.png",
-        "LastUpdate": 1794738127,
+        "LastUpdate": 1794738324,
         "DownloadCount": 0,
         "LoadPriority": 0
     }
